@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "module": "ES2015",
+        "esModuleInterop": true,
+        "target": "es5",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "lib",
+        "removeComments": true,
+        "importHelpers": true,
+        "strict": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "lib", "example"]
+}
